@@ -21,7 +21,7 @@ const createWidget = (blockTime, fees, bitcoinIcon) => {
   w.backgroundColor = new Color("#000000")
   
   const image     = w.addImage(bitcoinIcon)
-  image.imageSize = new Size(45, 45)
+  image.imageSize = new Size(60, 30)
   image.centerAlignImage()
   
   w.addSpacer(8)
