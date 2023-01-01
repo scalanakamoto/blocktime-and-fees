@@ -7,7 +7,7 @@ Version: 1.0
 const urlSkeleton         = 'https://mempool.space/api'
 const urlCurrentBlockTime = `${urlSkeleton}/blocks/tip/height`
 const urlFees             = `${urlSkeleton}/v1/fees/recommended`
-const urlIcon             = 'https://i.postimg.cc/NM651ww5/einundzwanzigblack.png'
+const urlIcon             = 'https://i.postimg.cc/6p9RL1gg/einundzwanzig.png'
 
 const reqCurrentBlockTime = new Request(urlCurrentBlockTime);
 const currentBlockTime    = await reqCurrentBlockTime.loadString();
