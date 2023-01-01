@@ -7,7 +7,7 @@ Version: 1.0
 const urlSkeleton         = 'https://mempool.space/api'
 const urlCurrentBlockTime = `${urlSkeleton}/blocks/tip/height`
 const urlFees             = `${urlSkeleton}/v1/fees/recommended`
-const urlIcon             = 'https://i.postimg.cc/8zgkm0tv/diemarktradikalen.jpg'
+const urlIcon             = 'https://i.postimg.cc/nLrnkH0g/Die-Marktradikalen-Logo-Gelb-Weiss.png'
 
 const reqCurrentBlockTime = new Request(urlCurrentBlockTime);
 const currentBlockTime    = await reqCurrentBlockTime.loadString();
